@@ -2,15 +2,17 @@
   <v-main>
     <v-parallax
       dark
-      src="@/assets/hero.jpg"
+      src="@/assets/top.jpeg"
     >
       <v-row align="center" justify="center">
         <v-col class="text-center" cols="12">
           <h1 class="display-1 font-weight-thin mb-4">MY_portfolio</h1>
           <!-- TODO: ここ差し替える -->
-          <h4 class="subheading">ここを自分の名前とかに差し替えてね</h4>
+          <h4 class="subheading">平松守瑠</h4>
           <!-- ハッシュリンク追加 -->
           <a href="#works-header">works</a>
+          <br /><a href="#about-header">about</a>
+          <br /><a href="#contact-header">contact</a>
         </v-col>
       </v-row>
     </v-parallax>
@@ -22,33 +24,33 @@
       <section class="section">
         <ProductList></ProductList>
       </section>
-      <!-- <section class="section">
+       <section class="section">
         <div class="inner">
           <div class="section-title-block">
-            <h2 class="headline font-weight-bold text-center my-16">
+            <h2 id="about-header" class="headline font-weight-bold text-center my-16">
               ABOUT
             </h2>
           </div>
           <v-row>
             <v-col cols="12" sm="12" md="4" lg="3"
               ><img
-                src="https://dummyimage.com/250x150/000/fff"
+                src="@/assets/icon2.jpg"
                 alt=""
                 width="250"
             /></v-col>
             <v-col cols="12" sm="12" md="7" lg="9">
               <p class="text">
-                テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
-                <br />テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                分類:人間 高さ:1.68メートル 重さ:りんご170個分 性別:♂
+                <br />
               </p>
             </v-col>
           </v-row>
         </div>
-      </section> -->
-      <!-- <section class="section">
+      </section>
+       <section class="section">
         <div class="inner">
           <div class="section-title-block">
-            <h2 class="headline font-weight-bold text-center my-16">
+            <h2 id="contact-header" class="headline font-weight-bold text-center my-16">
               CONTACT
             </h2>
             <p class="section-desc text-center">
@@ -67,7 +69,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section> 
     </v-container>
   </v-main>
 </template>
