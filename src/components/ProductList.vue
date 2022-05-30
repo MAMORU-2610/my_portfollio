@@ -98,6 +98,45 @@ export default {
         ],
       },
       {
+        id: 3,
+        name: 'num4',
+        // TODO: ここに差し替えたい画像のパスを入れてね
+        image: require('@/assets/num4.png'),
+        year: '2022',
+        category: 'hobby',
+        use: 'processing',
+        urls: [
+          // TODO: ここにリンクしたいURLを入れてね
+          'https://openprocessing.org/sketch/1586819'
+        ],
+      },
+      {
+        id: 3,
+        name: 'num5',
+        // TODO: ここに差し替えたい画像のパスを入れてね
+        image: require('@/assets/num5.png'),
+        year: '2022',
+        category: 'hobby',
+        use: 'processing',
+        urls: [
+          // TODO: ここにリンクしたいURLを入れてね
+          'https://openprocessing.org/sketch/1586820'
+        ],
+      },
+      {
+        id: 3,
+        name: 'num6',
+        // TODO: ここに差し替えたい画像のパスを入れてね
+        image: require('@/assets/num6.png'),
+        year: '2022',
+        category: 'hobby',
+        use: 'processing',
+        urls: [
+          // TODO: ここにリンクしたいURLを入れてね
+          'https://openprocessing.org/sketch/1586823'
+        ],
+      },
+      {
         id: 6,
         name: 'tanpopo',
         // TODO: ここに差し替えたい画像のパスを入れてね

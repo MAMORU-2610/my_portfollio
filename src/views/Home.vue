@@ -24,6 +24,16 @@
       <section class="section">
         <ProductList></ProductList>
       </section>
+<!-- 
+       <h2 class="headline font-weight-bold text-center my-16">
+        HOBBY
+      </h2>
+       <section class="section">
+         <HobbyList></HobbyList>
+      </section> -->
+
+
+
        <section class="section">
         <div class="inner">
           <div class="section-title-block">
@@ -47,7 +57,7 @@
           </v-row>
         </div>
       </section>
-       <section class="section">
+       <!-- section class="section">
         <div class="inner">
           <div class="section-title-block">
             <h2 id="contact-header" class="headline font-weight-bold text-center my-16">
@@ -69,15 +79,24 @@
             </div>
           </div>
         </div>
-      </section> 
+      </section>  -->
     </v-container>
   </v-main>
 </template>
 
 <script>
 import ProductList from "../components/ProductList.vue";
+// import HobbyList from "../components/HobbyList.vue";
 export default {
   name: "Home",
-  components: { ProductList },
+  components: { 
+    ProductList,
+    // HobbyList
+  },
 };
+// import HobbyList from "../components/HobbyList.vue";
+// export default {
+//   name: "Home",
+//   components: { HobbyList},
+// };
 </script>
